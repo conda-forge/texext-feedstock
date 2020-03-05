@@ -1,5 +1,5 @@
 {% set name = "texext" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d103978ba910de4e0a0b03b0ae8cfde28ee5ec4f82bab71603d44c31ff82295d
+  sha256: 8f901204435dc7703721d5ff5b48a52818b067507523162319deb5a6d7f1c998
 
 build:
   noarch: python
@@ -32,9 +32,9 @@ about:
   home: http://github.com/matthew-brett/texext
   license: BSD-2-Clause
   license_family: BSD
-  license_file: LICENSE 
+  license_file: LICENSE
   summary: Sphinx extensions for working with LaTeX math
-  
+
   description: |
     texext contains a couple of Sphinx extensions for working with LaTeX math.
   doc_url: https://github.com/matthew-brett/texext
