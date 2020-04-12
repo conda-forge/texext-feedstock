@@ -1,5 +1,5 @@
 {% set name = "texext" %}
-{% set version = "0.6.5" %}
+{% set version = "0.6.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 96b3a46ea94442006cf262e80be02559df34edbea6ea6dff47060c3b2d0a445f
+  sha256: 26e9219ddfc9600d1c2d36618c968522e7dd9318920d16f502f7f6e49a964dde
 
 build:
   noarch: python
